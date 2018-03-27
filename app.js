@@ -6,6 +6,11 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
+console.log("-------------------------------------------------------------------------");
+
+console.log(index.router);
+
+var auth = require('./routes/auth');
 var users = require('./routes/users');
 
 var app = express();
